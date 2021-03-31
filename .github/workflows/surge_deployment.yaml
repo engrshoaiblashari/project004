@@ -40,4 +40,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ reactappbyshoaibtest.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build project003-shoaibtest.surge.sh --token ${{ secrets.SURGE_TOKEN }}
